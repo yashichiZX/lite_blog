@@ -51,6 +51,15 @@ Use it to make something cool, have fun, and share what you've learned with othe
 Styles based on Normalize v5.0.0 @link https://github.com/necolas/normalize.css
 --------------------------------------------------------------*/
 
+/*Add code-prettify*/
+li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9 {
+  list-style-position: outside;
+  margin-left: 36px;
+  padding-left: 16px;
+  list-style-type: unset;
+}
+
+
 html {
 	font-family: sans-serif;
 	line-height: 1.15;

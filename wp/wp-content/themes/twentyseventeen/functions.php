@@ -410,7 +410,7 @@ add_action( 'wp_head', 'twentyseventeen_colors_css_wrap' );
  */
 function twentyseventeen_scripts() {
 	// Add JavaScript code prettifier
-	wp_enqueue_style( 'code-prettify', get_theme_file_uri( '/assets/css/prettify.css' ) );
+	// wp_enqueue_style( 'code-prettify', get_theme_file_uri( '/assets/css/prettify.css' ) );
 
 	// Add custom fonts, used in the main stylesheet.
 	wp_enqueue_style( 'twentyseventeen-fonts', twentyseventeen_fonts_url(), array(), null );
